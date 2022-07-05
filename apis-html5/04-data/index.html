@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos DATA</title>
+    <script type="text/javascript" src="main.js" defer></script>
+    <style>
+        li{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        li[data-continente = "europa"]{
+            background-color: blue;
+            color: white;
+        }
+        li[data-continente = "latam"]{
+            background-color: green;
+            color: white;
+        }
+        li[data-continente = "usa"]{
+            background-color: red;
+            color: white;
+        }
+        li[data-continente = "asia"]{
+            background-color: violet;
+            color: white;
+        }
+        li[data-continente = "oceania"]{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>ATRIBUTOS DATA</h1>
+
+    <ul id="lista">
+        <li data-continente = "europa">España</li>
+        <li data-continente = "latam">Mexico</li>
+        <li data-continente = "usa">Estados Unidos</li>
+        <li data-continente = "europa">Alemania</li>
+        <li data-continente = "asia">Turquia</li>
+        <li data-continente = "oceania">Australia</li>
+    </ul>
+    
+</body>
+</html>
